@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <title>README - ખાતા બુક સુપર</title>
+</head>
+<body>
+  <h1>ખાતા બુક (Firebase + Export + Mobile UI)</h1>
+  <p>આ વેબસાઈટમાં Firebase Auth, Realtime Database, Excel Export, અને WhatsApp SMS ટેમ્પલેટ સામેલ છે.</p>
+
+  <h2>1. Firebase project કેવી રીતે બનાવવું</h2>
+  <ol>
+    <li>https://console.firebase.google.com પર જાઓ</li>
+    <li>એક નવું project બનાવો (eg. khata-book)</li>
+    <li>Authentication → Sign-in Method → Phone/Email ચાલુ કરો</li>
+    <li>Realtime Database → Start in test mode → Enable કરો</li>
+    <li>Project settings → General → Web App ઉમેરો → config કોપી કરો</li>
+    <li>config.js ફાઇલમાં એ config પેસ્ટ કરો</li>
+  </ol>
+
+  <h2>2. Excel export માટે</h2>
+  <p>SheetJS લાઇબ્રેરી દ્વારા .xlsx ફાઇલ export થાય છે</p>
+
+  <h2>3. WhatsApp/SMS માટે</h2>
+  <p>Twilio/Fast2SMS દ્વારા Reminder મોકલી શકાય છે. Code સામેલ છે.</p>
+</body>
+</html>
